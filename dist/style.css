@@ -1,0 +1,119 @@
+body {
+    background-color: #faefef;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #852304;
+    color: white;
+}
+
+form .row {
+    display: block;
+    padding: 7px 8px;
+    margin-bottom: 10px;
+}
+
+form .row:hover {
+    background: #f1f7fa;
+}
+
+form label {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 120px;
+    padding: 6px 0;
+    color: #464646;
+    vertical-align: top;
+}
+
+form .note {
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-weight: normal;
+    padding: 2px 1px;
+    margin-bottom: 30px;
+}
+
+form input:focus, form textarea:focus { outline: none; }
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 340px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+}
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 340px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+}
+
+form .txt1 {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 340px;
+    height: 300px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+}
+.center{
+    margin-left: 100px;
+}
+.contact {
+    color: darkred;
+    font-size: 25px;
+    text-align: center;
+}
+.information{
+    font: 25px/50px Helvetica;
+    font-family: Helvetica;
+    color: darkred;
+    text-align: center;
+}
+
+.dance{
+    text-align: center;
+}
+
+.aboutk{
+    font: 25px/30px Helvetica ;
+    color: black;
+    text-align: justify;
+    margin-left: 10px;
+
+}

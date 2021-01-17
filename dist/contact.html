@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Kapriz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Каприз</a>
+    <a href="about.html">О нас</a>
+    <a href="news.html">Галерея</a>
+    <a class="active" href="dist/contact.html">Оставить заявку</a>
+</div>
+<div class="container">
+    <div class="starter-template">
+        <h1>Оставить заявку</h1>
+        <p class = "contact">Если вы хотите стать частью нашего коллектива
+        отправьте краткое резюме</p>
+    </div>
+</div>
+<div id="w">
+    <form id="contactform" name="contact" method="post" action="#" align="center">
+
+        <div class="row">
+            <label for="name">Ваше Имя</label>
+            <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Софья" required>
+        </div>
+
+        <div class="row">
+            <label for="email">E-mail Адрес </label>
+            <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder=" address@mail.ru" required>
+        </div>
+
+        <div class="row">
+            <label for="subject">Резюме</label>
+            <input type="text" name="subject" id="subject" class="txt1" tabindex="3" placeholder="Расскажите о себе.." required>
+        </div>
+
+        <div class="center" >
+            <input type="submit" id="submitbtn" name="submitbtn" tabindex="100" style="height: 50px;width: 200px;background-color: bisque" value="Отправить Резюме">
+        </div>
+    </form>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
